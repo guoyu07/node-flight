@@ -1,0 +1,26 @@
+{
+    "ecmaVersion": 6,
+    "env": {
+        "node": true,
+        "es6": true
+    },
+    "ecmaFeatures": {
+        "modules": false
+    },
+    extends: "eslint:recommended",
+    "rules": {
+        "block-spacing": "warn",
+        "camelcase": "warn",
+        "eol-last": "warn",
+        "comma-spacing": "warn",
+        "space-before-blocks": "warn",
+        "max-depth": ["warn", 10],
+        "no-mixed-spaces-and-tabs": "warn",
+        "quotes": [2, "single", "avoid-escape"],
+
+        "arrow-body-style": "warn",
+        "arrow-parens": "warn",
+        "arrow-spacing": "warn",
+        "no-var": "warn"
+    }
+}
